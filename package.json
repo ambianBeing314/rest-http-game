@@ -1,0 +1,26 @@
+{
+  "name": "rest-http-game",
+  "version": "1.0.0",
+  "description": "A game of four stages based on getting input and sending output with REST calls",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "NODE_ENV=development nodemon --watch src src/index.js",
+    "prod": "NODE_ENV=production node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambianBeing/rest-http-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ambianBeing/rest-http-game/issues"
+  },
+  "homepage": "https://github.com/ambianBeing/rest-http-game#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
